@@ -42,6 +42,37 @@ h2 {
     padding: 2rem;
 }
 
+.sect {
+    width: 90%;
+    margin: 3rem auto;
+}
+
+.sect h2 {
+    text-align: center;
+    font-weight: normal;
+    color: green;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    outline: none;
+    border-radius: 1rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+input {
+    width: 10rem;
+    height: 2rem;
+    font-size: 1.3rem;
+    color: red;
+}
+
 
 /* Footer */
 
