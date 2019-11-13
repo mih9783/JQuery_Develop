@@ -67,12 +67,12 @@
                 <div>
                     <input class="disd" type="text" value="">
                     <input type="text" value="" disabled>
-                </di>
-                <br>
+                    </di>
+                    <br>
 
-                <a href="" class="button">кнопка ссылка</a>
-                <a href="" class="button">кнопка ссылка</a>
-                <a href="" class="button">кнопка ссылка</a>
+                    <a href="" class="button">кнопка ссылка</a>
+                    <a href="" class="button">кнопка ссылка</a>
+                    <a href="" class="button">кнопка ссылка</a>
             </section>
 
             <section class="sect sect_2">
@@ -168,9 +168,14 @@
             <section class="sect sect_4">
                 <h2>Title section 4</h2>
 
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, et nesciunt?
-                </p>
+                <div>
+                    <p>
+                        ДОБАВОЧНЫЕ КЛАССЫ
+                    </p>
+                    <p>
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, et nesciunt?
+                    </p>
+                </div>
 
                 <ul class="test">
                     <li class="test__item item__1">test__item_1</li>
@@ -179,13 +184,16 @@
                     <li class="test__item item__4">test__item_4</li>
                     <li class="test__item item__5">test__item_5</li>
                     <li class="test__item item__6">test__item_6</li>
-                    <li class="test__item item__7">test__item_7</li>
+                    <li class="test__item item__7 waste">test__item_7</li>
                     <li class="test__item item__8">test__item_8</li>
                     <li class="test__item item__9">test__item_9</li>
                     <li class="test__item item__10">test__item_10</li>
                     <li class="test__item item__11">test__item_11</li>
                     <li class="test__item item__12">test__item_12</li>
                 </ul>
+
+                <button class="btn_add">добавление класса test__item_1</button><br>
+                <button class="btn_remove">удаление класса test__item_1</button>
             </section>
 
 
@@ -194,12 +202,17 @@
 
             <section class="sect sect_5">
                 <h2>Title section 5</h2>
+                <h2 style="color:brown;">переключение класса метод toggle()</h2>
 
                 <p>
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, et nesciunt?
                 </p>
 
-                <ul class="test1">
+                <button class="btn_toggle">скрываем список</button><br>
+                <button class="btn_slidetoggle">плавно скрываем список</button>
+
+
+                <ul class="test3">
                     <li class="test__item1 items__1">test__item_1</li>
                     <li class="test__item1 items__2">test__item_2</li>
                     <li class="test__item1 items__3">test__item_3</li>
@@ -215,27 +228,25 @@
                 </ul>
             </section>
 
+            <h2 style="font-size: 2.3rem; text-align: center; color: red;">Работа с атрибутами</h2>
             <section class="sect sect_6">
-                <h2>Title section 6</h2>
+                <h2>section 6</h2>
 
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates, et nesciunt?
-                </p>
+                <h2>.attr(attrName)</h2>
+                <div class="my_block">
+                    <div class="div" id="titleBlock"> 1 </div>
+                    <div class="div" id="contentBlock"> 2 </div>
+                    <div id="newsBlock" class="div news"> 3 </div>
+                </div>
 
-                <ul class="test2">
-                    <li class="test__item1 items__1">test__item_1</li>
-                    <li class="test__item1 items__2">test__item_2</li>
-                    <li class="test__item1 items__3">test__item_3</li>
-                    <li class="test__item1 items__4">test__item_4</li>
-                    <li class="test__item1 items__5">test__item_5</li>
-                    <li class="test__item1 items__6">test__item_6</li>
-                    <li class="test__item1 items__7">test__item_7</li>
-                    <li class="test__item1 items__8">test__item_8</li>
-                    <li class="test__item1 items__9">test__item_9</li>
-                    <li class="test__item1 items__10">test__item_10</li>
-                    <li class="test__item items__11">test__item_11</li>
-                    <li class="test__item items__12">test__item_12</li>
-                </ul>
+                <h2>removeAttr(name)</h2>
+
+                <div class="my_block">
+                    <button id="button_on">Включить</button><button id="button_off">Выключить</button>
+                    <input class="inp_attr" type="text" disabled="disabled" value="Нельзя редактировать" />
+                </div>
+
+
             </section>
 
         </div>

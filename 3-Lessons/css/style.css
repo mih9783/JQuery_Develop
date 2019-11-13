@@ -47,6 +47,12 @@ h2 {
     margin: 3rem auto;
 }
 
+.sect_5 {
+    height: 35rem;
+    border: 1px solid #000;
+    padding: 2rem;
+}
+
 .sect h2 {
     text-align: center;
     font-weight: normal;
@@ -72,6 +78,59 @@ input {
     font-size: 1.3rem;
     color: red;
 }
+
+/* ДОБАВОЧНЫЕ КЛАССЫ */
+
+.myclass_1 {
+    color: rgb(231, 209, 82);
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.7rem;
+    box-sizing: border-box;
+}
+
+.myclass_2 {
+    color: rgb(233, 51, 111);
+}
+
+.myclass_3 {
+    color: rgb(90, 228, 152);
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+/* sect 6 */
+
+.div, span {
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding: 15px;
+    margin: 5px;
+    background-color: #EEEEEE;
+    font-size: 12pt;
+  }
+
+  .my_block {
+      width: 90%;
+      margin: 3rem auto;
+      padding: 2rem;
+      border: 1px solid #000;
+      height: 5rem;
+  }
+
+  .inp_attr {
+      width: 15rem;
+      padding-left: 20px;
+  }
+
 
 
 /* Footer */
